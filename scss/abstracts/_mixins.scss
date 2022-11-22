@@ -1,0 +1,10 @@
+@mixin link-without-style() {
+  a {
+    color: inherit;
+    text-decoration: none;
+    &:hover, &:focus {
+      text-decoration: none;
+      color: $link-hover-color;
+    }
+  }
+}

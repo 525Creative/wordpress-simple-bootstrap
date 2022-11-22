@@ -13,14 +13,10 @@ Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, custo
 Licensed under the MIT license.
 .
 */
-@import "bootstrap_variables";
-@import "node_modules/bootstrap/scss/bootstrap";
-$fa-font-path: "./fonts";
-@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
-@import "node_modules/@fortawesome/fontawesome-free/scss/regular";
-@import "node_modules/@fortawesome/fontawesome-free/scss/solid";
-@import "node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "abstracts";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
-@import "customization";
-@import "theme_customization";
-@import "wp";
+@import "wordpress";
