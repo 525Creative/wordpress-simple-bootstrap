@@ -1,0 +1,11 @@
+.font-weight-light {
+  @extend .fw-light;
+}
+
+.text-left {
+  @extend .text-start;
+}
+
+.text-right {
+  @extend .text-end;
+}

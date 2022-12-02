@@ -1,0 +1,41 @@
+// Boostrap variables
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+
+$primary: #ee2e24;
+$secondary: #f0f0f0;
+
+// Nav tabs
+$nav-tabs-link-active-bg: $secondary;
+
+// Accordion
+$accordion-button-active-bg: $secondary;
+$accordion-button-active-color: #222222;
+$accordion-button-focus-border-color: $secondary;
+$accordion-button-focus-box-shadow: 0 0 0 0.25rem rgba(240, 240, 240, 0.25);
+$accordion-button-icon:         url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+$accordion-button-active-icon:  url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+
+// Form elements
+$input-border-radius: 0;
+$input-padding-y: 0.438rem;
+$input-border-color: #dadce3;
+$input-border-width: 2px;
+
+// Form label variables
+$form-label-font-weight: 700;
+
+// FontAwesome variables
+$fa-font-path: "./static/webfonts";
+
+// WordPress variables
+$block-bg: #fff;
+$block-padding: 1.5rem;
+$block-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+$footer-bg: #f8f8f8;
+$footer-border: darken($footer-bg, 6.5%);
+$footer-padding: 1.5rem;

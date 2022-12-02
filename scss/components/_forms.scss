@@ -1,0 +1,19 @@
+label {
+  @extend .form-label;
+}
+
+.hs-form-field,
+.form-group {
+  @extend .mb-3
+}
+
+select,
+textarea,
+input:not([type=submit]):not([type=checkbox]),
+.hs-input:not([type=submit]):not([type=checkbox]) {
+  @extend .form-control;
+}
+
+.hs-error-msg {
+  @extend .form-text;
+}
